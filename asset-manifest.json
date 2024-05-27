@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wefin-cards-demo/static/css/main.c5b83a19.css",
-    "main.js": "/wefin-cards-demo/static/js/main.6314c3b3.js",
+    "main.css": "/wefin-cards-demo/static/css/main.c801c64c.css",
+    "main.js": "/wefin-cards-demo/static/js/main.9a52f41d.js",
     "static/js/453.81ddd735.chunk.js": "/wefin-cards-demo/static/js/453.81ddd735.chunk.js",
     "index.html": "/wefin-cards-demo/index.html",
-    "main.c5b83a19.css.map": "/wefin-cards-demo/static/css/main.c5b83a19.css.map",
-    "main.6314c3b3.js.map": "/wefin-cards-demo/static/js/main.6314c3b3.js.map",
+    "main.c801c64c.css.map": "/wefin-cards-demo/static/css/main.c801c64c.css.map",
+    "main.9a52f41d.js.map": "/wefin-cards-demo/static/js/main.9a52f41d.js.map",
     "453.81ddd735.chunk.js.map": "/wefin-cards-demo/static/js/453.81ddd735.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5b83a19.css",
-    "static/js/main.6314c3b3.js"
+    "static/css/main.c801c64c.css",
+    "static/js/main.9a52f41d.js"
   ]
 }
