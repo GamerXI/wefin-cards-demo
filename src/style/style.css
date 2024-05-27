@@ -88,6 +88,25 @@ button, input, optgroup, select, textarea {
 
 /* header css starts here */
 
+.cs_compare_mobile .comp-button.cs_mv {
+    display: none;
+}
+.cs_compare_mobile .comp-button.cs_mv {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding: 15px;
+    border-radius: 0;
+}
+.main-heading .comp-button, .cs_compare_mobile .comp-button {
+    background-color: #5200bb;
+    border: 0;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 7px 15px;
+}
 .main-heading h1 {
     color: #353535;
     font-size: 22px;
@@ -317,10 +336,25 @@ figure {
 
 /* responsive media queries css starts here */
 
-@media (max-width: 576px)
-.main-heading h1 {
-    font-size: 17px;
-    margin-top: 5px;
+@media (max-width: 576px){
+    .main-heading h1 {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .cards-main-list .cards-image-coumn .figure {
+        padding: 50px 10px 25px;
+    }
+    .cards-main-list .cards-image-coumn {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .cs_compare_mobile .comp-button.cs_mv {
+        display: block;
+    }
+    .main-heading .comp-button.cs_dv {
+        display: none;
+    }
 }
 @media (min-width: 1200px)
 .container {
@@ -342,5 +376,6 @@ figure {
 .container, .container-sm {
     max-width: 540px;
 }
+
 
 /* responsive media queries css ends here */

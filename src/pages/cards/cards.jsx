@@ -33,6 +33,7 @@ export default function Cards() {
           {cardData.map((item, index) => {
             return < CardComponent key={index} data={item} />
           })}
+          <div class="cs_compare_mobile"><button type="button" class="comp-button cs_mv btn btn-primary">Compare Credit Cards <span>0</span></button></div>
         </div>
       </section>
       < Footer />
