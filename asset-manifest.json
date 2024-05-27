@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wefin-cards-demo/static/css/main.7d1c287d.css",
-    "main.js": "/wefin-cards-demo/static/js/main.3399d818.js",
-    "static/js/453.a3defefa.chunk.js": "/wefin-cards-demo/static/js/453.a3defefa.chunk.js",
+    "main.css": "/wefin-cards-demo/static/css/main.c5b83a19.css",
+    "main.js": "/wefin-cards-demo/static/js/main.6314c3b3.js",
+    "static/js/453.81ddd735.chunk.js": "/wefin-cards-demo/static/js/453.81ddd735.chunk.js",
     "index.html": "/wefin-cards-demo/index.html",
-    "main.7d1c287d.css.map": "/wefin-cards-demo/static/css/main.7d1c287d.css.map",
-    "main.3399d818.js.map": "/wefin-cards-demo/static/js/main.3399d818.js.map",
-    "453.a3defefa.chunk.js.map": "/wefin-cards-demo/static/js/453.a3defefa.chunk.js.map"
+    "main.c5b83a19.css.map": "/wefin-cards-demo/static/css/main.c5b83a19.css.map",
+    "main.6314c3b3.js.map": "/wefin-cards-demo/static/js/main.6314c3b3.js.map",
+    "453.81ddd735.chunk.js.map": "/wefin-cards-demo/static/js/453.81ddd735.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d1c287d.css",
-    "static/js/main.3399d818.js"
+    "static/css/main.c5b83a19.css",
+    "static/js/main.6314c3b3.js"
   ]
 }
