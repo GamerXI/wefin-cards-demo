@@ -1,6 +1,42 @@
+/* tags css starts here */
+
 body{
     overflow-x: hidden;
 }
+header {
+    padding: 0.8rem 0;
+    background-color: initial;
+    position: relative;
+    z-index: 99;
+}
+section {
+    padding-top: 110px;
+    margin-bottom: 40px;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+button {
+    border: 0;
+}
+button, input {
+    overflow: visible;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* tags css ends here */
+
+/* footer css starts here */
+
 .bestsuited_div {
     display: flex;
     width: 400px;
@@ -47,3 +83,264 @@ body{
     opacity: .5;
     font-size: 8px;
 }
+
+/* footer css ends here */
+
+/* header css starts here */
+
+.main-heading h1 {
+    color: #353535;
+    font-size: 22px;
+    font-weight: 600;
+}
+.main-heading .comp-button, .cs_compare_mobile .comp-button {
+    background-color: #5200bb;
+    border: 0;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 7px 15px;
+}
+.main-heading .fiter-button {
+    background-color: initial;
+    border: 0;
+    margin: 0;
+    color: #353535;
+}
+.text-right {
+    text-align: right!important;
+}
+.main-heading .comp-button span {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+}
+.main-heading .fiter-button img {
+    display: inline-block;
+}
+.main-section{
+    padding-top: 110px;
+}
+
+.main-section {
+    padding-top: 95px;
+    margin-bottom: 40px;
+}
+.bsHeader {
+    position: relative;
+    padding: 0;
+}
+.bsHeader .navbar {
+    background: #fff;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #eee;
+    right: inherit;
+    width: 100%;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.bsHeader .topbarLogo {
+    max-width: 115px;
+    height: auto;
+    margin-left: 0;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,.9);
+}
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+}
+.bsHeader .ccLogin.dropdown button {
+    padding: 7px 20px;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+.bsHeader .dropdown button {
+    background: #fff;
+    color: #5200bb;
+    text-transform: capitalize;
+}
+.bsHeader .dropdown button img {
+    display: inline-block;
+    margin-right: 7px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* header css ends here */
+
+/* cards component css starts here */
+
+.cards-main-list {
+    margin-top: 30px;
+    position: relative;
+}
+.cards-main-list .cards-image-coumn {
+    background-image: url(https://app.wefin.in/static/media/ccBg.15f8962a.png);
+}
+.cards-main-list .cards-image-coumn .figure {
+    margin: 0;
+}
+.cards-main-list img {
+    display: inline-block;
+}
+img, video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.figure {
+    display: inline-block;
+}
+figure {
+    margin: 0 0 1rem;
+}
+.cards-main-list .ccDecCol {
+    border-bottom: 1px solid #f0f0f0;
+}
+.cards-main-list .cards-main-sub-heading {
+    margin-bottom: 20px;
+}
+.cards-main-list .cards-main-sub-heading h3 {
+    color: #2e0080;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cards-main-list .cards-main-sub-heading p {
+    font-size: 16px;
+    max-width: 520px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+    color: #000;
+}
+.cards-main-list .cards-main-sub-heading .comp-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: initial;
+    color: #5200bb;
+    border: 0;
+}
+.cards-main-list .cards-info-block {
+    padding-bottom: 20px;
+}
+
+.cards-main-list .cards-info-block p {
+    color: #c9c9c9;
+    font-size: 13.5px;
+}
+.cards-main-list .cards-info-block p button {
+    background-color: inherit;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 0 0 3px;
+}
+.cards-main-list .cards-info-block p button {
+    background-color: inherit;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -3px 0 0 3px;
+}
+.cards-main-list .cards-info-block img {
+    margin-right: 5px;
+}
+
+.cards-main-list img {
+    display: inline-block;
+}
+.cards-main-list .cards-info-block p+p {
+    margin-top: 5px;
+    color: #1f1f1f;
+}
+.cards-main-list .cards-info-block p+p span {
+    margin-right: 15px;
+}
+.cards-main-list .cards-info-block {
+    padding-bottom: 20px;
+}
+.cards-main-list .cards-info-block.cards-info-qualified-check-block span {
+    width: 2px;
+    height: 22px;
+    color: #2e0080;
+    display: inline-block;
+    background-color: #2e0080;
+    line-height: 22px;
+    margin: 0 10px;
+    border-radius: 10%;
+}
+.cards-main-list .ccDecCol .cards-button-block {
+    padding-bottom: 20px;
+}
+.cards-main-list .cards-button-block .cards-know-more-button {
+    background-color: initial;
+    color: #2e0080;
+    border: 0;
+    padding: 0;
+    margin-right: 15px;
+}
+.cards-main-list .cards-button-block .cards-know-more-button img {
+    margin-right: 7px;
+}
+.cards-main-list .cards-button-block .cards-apply-button {
+    background-color: #5200bb;
+    border: 0;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 7px 15px;
+}
+
+/* cards component css ends here */
+
+/* responsive media queries css starts here */
+
+@media (max-width: 576px)
+.main-heading h1 {
+    font-size: 17px;
+    margin-top: 5px;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+}
+
+/* responsive media queries css ends here */
